@@ -5,7 +5,9 @@ This code framework can be used to reproduce all numerical results of the paper 
 To run the code open Julia and type `]` to open the package manager. Type `activate .` to install all required packages. To load tikzplotlib you have to run the following commands
 ``
 import Pkg; Pkg.add("Conda")
+
 using Conda
+
 Conda.add("tikzplotlib",channel="conda-forge")
 ``
 
