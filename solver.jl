@@ -1,9 +1,8 @@
 __precompile__
-include("quadrature.jl")
-include("basis.jl")
 
 using ProgressMeter
 using LinearAlgebra
+using FastGaussQuadrature
 
 struct DLRSolver
     # spatial grid of cell interfaces
